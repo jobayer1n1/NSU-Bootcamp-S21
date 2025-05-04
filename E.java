@@ -3,14 +3,13 @@ import java.util.Scanner;
 public class E {
 
     public static void main(String[] args) {
-        int n,m;
+        int n;
         Scanner input = new Scanner(System.in);
         n = input.nextInt();
-        m = n;
-        int[][] arr= new int[n][m];
+        int[][] arr= new int[n][n];
         for(int i = 0 ; i< n ; i++)
         {
-            for(int j= 0 ; j< m;j++)
+            for(int j= 0 ; j< n;j++)
             {
                 arr[i][j] = input.nextInt();
             }
