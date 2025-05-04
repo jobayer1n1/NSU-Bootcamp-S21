@@ -23,7 +23,7 @@ public class E {
 
     static int diagonalDifference(int[][] arr){
         int sumPrimary = 0, sumSecondary = 0;
-        int n = (int)Math.sqrt(arr.length);
+        int n = arr.length;
         for(int i = 0, j= n-1 ; i<n ; i++,j--)
         {
             sumPrimary+=arr[i][i];
