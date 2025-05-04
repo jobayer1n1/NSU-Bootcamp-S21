@@ -10,7 +10,8 @@ public class P {
         for(int i = 0 ; i< n ; i++)
         {
             a = input.nextInt();
-            if(a > (b=input.nextInt())) output.append(">\n");
+            b=input.nextInt();
+            if(a > b) output.append(">\n");
             else if(a<b) output.append("<\n");
             else output.append("=\n");
         }
